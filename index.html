@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+   
+    <title>Simplest Calculating App</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+<span style="display:inline-block; width:100px;"></span>
+     <div class="container">
+        <form action="#" onsubmit="calculate(); return false;">
+          <div class="form-group">
+            <label for="firstInput">Enter Base</label>
+            <input type="number" class="form-control" id="firstInput"  placeholder="Enter Base" required="required">
+          </div>
+          <div class="form-group">
+            <label for="secondInput">Enter Height</label>
+            <input type="number" class="form-control" id="secondInput" placeholder="Enter Height" required="required">
+          </div>
+          <div class="form-group">
+            <label for="sel1">Select Operation:</label>
+            <select class="form-control" id="operation">
+                <option value="triangle">Area of Triangle</option>
+                <option value="rectangle">Area of Rectangle</option>
+                 <option value="square">Area of Square</option>
+               
+           </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Calculate</button>
+
+        </form>
+         <hr/>
+            <div class="alert alert-primary" role="alert">
+              The result is: <span id="result">Unknown</span>
+            </div>
+      </div>
+      <script src="javascript/main.js"></script>
+  </body>
+
+</html>

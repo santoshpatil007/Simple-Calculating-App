@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id        = "com.doersguild.simplestappdemo"
+version   = "1.0.0">
+
+    <name>Simplest Smartphone App</name>
+    <description>Simplest Smartphone App</description>
+    
+    <preference name="target-device" value="universal" />
+    <preference name="android-targetSdkVersion" value="14" />
+    
+    <preference name="orientation" value="default" />
+    
+    <!-- If you do not want any permissions to be added to your app, add the
+    following tag to your config.xml; you will still have the INTERNET
+    permission on your app, which PhoneGap requires. -->
+    <preference name="permissions" value="none"/>
+    
+    <access origin="*" subdomains="true" />
+    
+    <author href="http://www.doersguild.com" email="sathvik@doersguild.com"> Doers' Guild  </author>
+
+</widget>
